@@ -6,8 +6,6 @@ function div( text, start, end ) {
 
 String.prototype.multiSplit = function(split) {
     var text = ''+this;
-    console.log('------------');
-    console.log( text, split );
     
     var rez = [],
         text_array = [];
